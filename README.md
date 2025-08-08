@@ -23,3 +23,17 @@ This MCP is ideal for enriching the context of language models or AI agents that
    ```bash
    git clone https://github.com/alcides-nolasco/mcp-data-metadata.git
    cd mcp-data-metadata
+
+2. create a virtual environment (optional but recommended)
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. **Install dependencies**
+   
+pip install -r requirements.txt
+4. **Run the server**
+   ```bash
+   python mcp_server.py
+   ```
+
+
