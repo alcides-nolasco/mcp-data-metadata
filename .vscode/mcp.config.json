@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "data-metadata-mcp": {
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/mcp_server.py"
+      ],
+      "env": {},
+      "capabilities": {
+        "tools": true,
+        "resources": false,
+        "prompts": false
+      }
+    }
+  }
+}
