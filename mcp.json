@@ -1,0 +1,26 @@
+{
+  "name": "data-metadata-mcp",
+  "description": "Model Context Protocol (MCP) server** written in Python to extract **metadata, statistics, and data samples",
+  "command": "python3",
+  "args": [
+    "mcp_server.py"
+  ],
+  "env": {},
+  "capabilities": {
+    "tools": true,
+    "resources": false,
+    "prompts": false
+  },
+  "version": "1.1",
+  "files": [
+    {
+      "path": "mcp_server.py",
+      "type": "python"
+    }
+  ],
+  "metadata": {
+    "author": "alcides-nolasco",
+    "email": "alcides.nolasco@gmail.com",
+    "last_modified": "2023-10-30T12:00:00Z"
+  }
+}
