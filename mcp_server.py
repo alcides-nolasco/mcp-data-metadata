@@ -87,10 +87,15 @@ def get_sample_rows(file_path: str, num_rows: int = 5) -> dict:
         df = load_dataframe(file_path, limit=num_rows)
         # Convert to a format that can be sent as JSON
         return {
-            "sample": df.head(num_rows).to_dict(orient="records")
+            "ejemplos": df.head(num_rows).to_dict(orient="records")
         }
     except Exception as e:
-        return {"error": str(e)}
+        return {"errores": str(e)}
 
 if __name__ == "__main__":
     mcp.run()
+# This script defines a server for handling metadata and statistics of various file formats.
+# It uses the FastMCP framework to create tools for retrieving metadata, statistics, Parquet
+# schema, and sample rows from files. The server can handle CSV, Excel, JSON, and Parquet files.
+# It provides functionality to get file size, load data into a DataFrame, and return structured metadata and statistics.
+# The server can be run directly, allowing it to serve requests for file metadata and statistics.  

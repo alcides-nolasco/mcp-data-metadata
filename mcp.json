@@ -1,4 +1,4 @@
-{
+{ "workspaceFolder": "/Users/cnolasco/myworkspace/mcp-data-metadata",
   "name": "data-metadata-mcp",
   "description": "Model Context Protocol (MCP) server** written in Python to extract **metadata, statistics, and data samples",
   "command": "python3",
@@ -14,7 +14,7 @@
   "version": "1.1",
   "files": [
     {
-      "path": "mcp_server.py",
+      "path": "${workspaceFolder}/mcp_server.py",
       "type": "python"
     }
   ],

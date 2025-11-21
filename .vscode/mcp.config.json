@@ -1,7 +1,8 @@
 {
+  "workspaceFolder": "/Users/cnolasco/myworkspace/mcp-data-metadata",
   "servers": {
     "data-metadata-mcp": {
-      "command": "python",
+      "command": "python3",
       "args": [
         "${workspaceFolder}/mcp_server.py"
       ],
